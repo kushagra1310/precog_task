@@ -3,11 +3,10 @@ name = "precog-task"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = "==3.10.*"
 dependencies = [
     "cdlib>=0.4.0",
     "dgl==2.4.0+cu121",
-    "dglke>=0.1.2",
     "igraph>=1.0.0",
     "ipykernel>=7.1.0",
     "leidenalg>=0.11.0",
@@ -17,4 +16,5 @@ dependencies = [
     "pandas>=2.3.3",
     "pygraphviz>=1.14",
     "scipy>=1.15.3",
+    "torch==2.4.0",
 ]
